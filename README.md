@@ -4,6 +4,7 @@
 ![Language](https://img.shields.io/badge/LANGUAGE-JAVA-f89820?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Build](https://img.shields.io/badge/BUILD-GRADLE-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![Plugin](https://img.shields.io/badge/TYPE-GHIDRA_PLUGIN-e74c3c?style=for-the-badge)
+
 **GhidraTranspiler** is a high-fidelity plugin for Ghidra that converts PCode AST (Abstract Syntax Tree) into highly readable Pseudo-C++. It bridges the gap between raw reverse-engineering outputs and native development experiences, offering a fully themed, dynamic, and integrated side-by-side transpilation window.
 
 ##  Features
