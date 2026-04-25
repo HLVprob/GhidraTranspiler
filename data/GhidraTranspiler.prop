@@ -1,0 +1,2 @@
+NAME=GhidraTranspiler
+DESCRIPTION=Transpiles PCode IR to Pseudo-Rust, Pseudo-Go, and Pseudo-C++

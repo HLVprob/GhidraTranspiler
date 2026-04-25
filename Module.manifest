@@ -1,0 +1,2 @@
+GHIDRA_MODULE_NAME=GhidraTranspiler
+GHIDRA_MODULE_DESC=Ghidra Decompiler to high-fidelity Pseudo-C++ Transpiler

@@ -1,0 +1,27 @@
+// set GHIDRA_INSTALL_DIR in gradle.properties or as env var
+apply plugin: 'java'
+
+def ghidraInstallDir
+if (System.env.GHIDRA_INSTALL_DIR) {
+    ghidraInstallDir = System.env.GHIDRA_INSTALL_DIR
+} else if (project.hasProperty('GHIDRA_INSTALL_DIR')) {
+    ghidraInstallDir = project.getProperty('GHIDRA_INSTALL_DIR')
+}
+
+if (ghidraInstallDir == null) {
+    throw new GradleException("""
+    GHIDRA_INSTALL_DIR is not set!
+    Set it in gradle.properties:
+        GHIDRA_INSTALL_DIR=C:/ghidra_11.x.x
+    """)
+}
+
+apply from: "$ghidraInstallDir/support/buildExtension.gradle"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}

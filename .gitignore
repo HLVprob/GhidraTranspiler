@@ -1,0 +1,12 @@
+.gradle/
+build/
+dist/
+bin/
+out/
+.vs/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.class
+gradle.properties
